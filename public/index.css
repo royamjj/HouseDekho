@@ -91,8 +91,7 @@ button {
 .listingDetails,
 .category,
 .explore {
-  margin: 2rem;
-  padding-bottom: 50px;
+  margin: 1rem;
 }
 @media (min-width: 1024px) {
   .pageContainer,
@@ -102,7 +101,6 @@ button {
   .category,
   .explore {
     margin: 3rem;
-    padding-bottom: 50px;
   }
 }
 
@@ -190,9 +188,7 @@ button {
   margin-bottom: 2rem;
   background: url('./assets/svg/badgeIcon.svg') #ffffff 2.5% center no-repeat;
 }
-.forgotPasswordContainer{
-  margin: 20px;
-}
+
 .emailInput {
   margin-bottom: 2rem;
   background: url('./assets/svg/personIcon.svg') #ffffff 2.5% center no-repeat;
@@ -219,8 +215,7 @@ button {
   cursor: pointer;
   color: #00cc66;
   font-weight: 600;
-  text-align: left;
-  font-size: 1.5rem;
+  text-align: right;
 }
 
 .signInBar,
@@ -269,7 +264,7 @@ button {
 }
 
 .socialLogin {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +276,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 0.75rem;
-  margin: 1rem;
+  margin: 1.5rem;
   width: 3rem;
   height: 3rem;
   background-color: #ffffff;
@@ -294,7 +289,7 @@ button {
 }
 
 .registerLink {
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: #00cc66;
   font-weight: 600;
   text-align: center;
@@ -333,8 +328,7 @@ button {
 .swiperSlideDiv {
   position: relative;
   width: 100%;
-  height: 70vh;
-  object-fit: cover;
+  height: 100%;
 }
 
 .swiperSlideImg {
@@ -378,10 +372,7 @@ button {
 
 .exploreCategories {
   display: flex;
-  justify-content: space-around;
-}
-.categoryContainer{
-  width: 100%;
+  justify-content: space-between;
 }
 .exploreCategories a {
   width: 48%;
@@ -605,7 +596,6 @@ button {
 
 .messageForm {
   margin-top: 0.5rem;
-  padding-bottom: 2rem;
 }
 
 .messageDiv {
@@ -678,9 +668,7 @@ button {
   all: unset;
   margin: 0.3rem 0;
   font-weight: 600;
-  padding: 5px;
   width: 100%;
-  border-radius: 5px;
 }
 .profileNameActive {
   background-color: rgba(44, 44, 44, 0.1);
